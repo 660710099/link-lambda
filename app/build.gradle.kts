@@ -25,6 +25,7 @@ dependencies {
     implementation(libs.guava)
     implementation("com.amazonaws:aws-lambda-java-core:1.2.2")
     implementation("com.amazonaws:aws-lambda-java-events:3.11.1")
+    implementation("software.amazon.awssdk:dynamodb-enhanced:2.42.6")
     implementation("software.amazon.awssdk:s3:2.42.4")
     runtimeOnly("com.amazonaws:aws-lambda-java-log4j2:1.5.1")
 }
